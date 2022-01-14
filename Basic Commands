@@ -1,0 +1,23 @@
+1. Checking version of Git installed:
+
+  Command:
+    git --version
+  
+2. Now let Git know who you are. This is important for version control systems, 
+  as each Git commit uses this information:
+    Command:
+      git config --global user.name "w3schools-test"
+      git config --global user.email "test@w3schools.com"
+    
+3. Initialize git
+
+   Once you have navigated to the correct folder, you can initialize Git on that folder:
+    Command:
+      git init
+    
+4. Then we check the Git status and see if it is a part of our repo.
+
+    Command:
+      git status
+      
+5. 
