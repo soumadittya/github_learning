@@ -20,4 +20,58 @@
     Command:
       git status
       
-5. 
+5. As you are working, you may be adding, editing and removing files.
+    But whenever you hit a milestone or finish a part of the work, 
+    you should add the files to a Staging Environment.
+    Staged files are files that are ready to be committed to the repository you are working on.
+    
+    Command:
+      git add filename.txt
+      git add --all
+      
+6. Adding commits keep track of our progress and changes as we work. 
+    Git considers each commit change point or "save point".
+    It is a point in the project you can go back to if you find a bug, 
+    or want to make a change.
+    
+    Command:
+      git commit -m "First Commit"
+      ('-m' is for adding a message along with each commit)
+      
+    Command: commit and stage together
+      git commit -a -m "First Commit"
+      ('-a' is for stagging the files)
+      
+ 7. GitHub repository configuration.
+    The following command pecifies that you are adding a remote repository,
+    with the specified URL, as an origin to your local Git repo.
+ 
+    Command:
+    git remote add origin https://github.com/soumadittya/github_learning.git
+   
+8. Now we are going to push our master branch to the origin url, and set it as the default remote branch.
+   Note: There is no default branch in Git but the default branches can be set up in repositories like GitHub, GitLab, etc.
+   
+   Command:
+   git push --set-upstream origin master
+
+9. Now push our changes to our remote origin.
+
+   Command:
+   git push origin
+
+
+
+      
+
+
+
+
+
+
+
+
+
+
+
+
