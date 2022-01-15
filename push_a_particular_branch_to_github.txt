@@ -1,1 +1,43 @@
+1. Create a branch
 
+  Command:
+  git branch demo_1
+  
+2. Switch to the new branch
+
+  Command:
+  git checkout demo_1
+  
+3. Show name of all the branches which are present and the currently active branch
+
+  Command:
+  git branch
+
+4. Stage file (use 'git add' command)
+
+  Command: For adding only a particular file
+  git add filename.txt
+  
+  Command: For adding all the files
+  git add --all
+  
+5. Check status
+   Command:
+   git status
+   
+6. Commit files
+
+   Command:
+   git commit - "First Commit"
+   ('-m' is for adding a message with the commit)
+   
+7. Add remote origin
+
+  Command:
+  git remote add origin https://github.com/soumadittya/github_learning
+  
+8. Push to a particular branch ('demo1')
+
+  Command:
+  git push origin demo1
+  ('demo1' is the name of the branch)
