@@ -13,3 +13,18 @@ Command:
   Command:
     git checkout branch_name
     
+4. Delete a branch
+
+  Command:
+  git branch -d branch_name
+  ('-d' is for deleting the branch) 
+ 
+5. Merge two branches.
+
+  Steps: 
+  1. Move to the main branch
+  2. Then type down the following command.
+  
+  Command:
+  git merge branch_name
+    
