@@ -1,0 +1,3 @@
+Pulling all changes from a remote repository into the branch you are working on.
+    Command:
+    git pull
