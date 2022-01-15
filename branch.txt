@@ -1,1 +1,15 @@
+1. Show names of all the branches and the currently active branch.
 
+Command:
+  git branch
+  
+2. Create a new branch.
+
+Command:
+  git branch branch_name
+  
+3. Switch branch
+
+  Command:
+    git checkout branch_name
+    
