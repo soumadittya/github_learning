@@ -1,0 +1,11 @@
+When the code of local repository and the code of remote repository are 
+not same then before pushing the new code to the remote repository git 
+expects us to pull the changes from the remote repository first and then 
+merge it with the local repository.
+
+But in case if we want to ovverride the remote repository code with our 
+local repository code then we can use the following command.
+
+    Command:
+    git push -f origin branch_name
+    ('-f' will override the remote repository code with the local repository code.)
