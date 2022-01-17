@@ -1,4 +1,4 @@
 Changing a remote repository
     
     Command:
-    git remote set-url origin https://github.com/soumadittya.github_learning.git
+    git remote set-url origin https://github.com/soumadittya/github_learning.git
