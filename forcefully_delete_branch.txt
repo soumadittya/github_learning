@@ -1,0 +1,5 @@
+Forcefully delete a branch. (Use this when 'git branch -d brnach_name' is not working or
+the branch that we want to delete is not merged.)
+
+    Command:
+    git branch -D branch_name
